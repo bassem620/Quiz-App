@@ -13,6 +13,64 @@
 </head>
 
 <body>
+    <!-- NavBar -->
+    <nav class="navbar bg-light">
+        <div class="container">
+            <span class="navbar-brand m-auto h1 text-primary fw-bold brand">Quiz App</span>
+        </div>
+    </nav>
+    <section class="quiz">
+        <div class="container">
+            <div class="box mx-1 my-4 p-2 rounded-4">
+                <!-- Title -->
+                <div class="title d-flex flex-column flex-md-row my-2 mx-4 px-3 py-2 fs-5 bg-light rounded-top">
+                    <span class="me-md-auto">Category : HTML</span>
+                    <span class="ms-md-auto">No. of questions : 10</span>
+                </div>
+                <!-- Question -->
+                <div class="question-area my-2 mx-4 px-3 py-2 fs-5 bg-light rounded-bottom">
+                    <h2 class="question">Q1 : What?</h2>
+                </div>
+                <!-- Answers -->
+                <div class="answers-area my-2 mx-2 mx-md-4 px-3 py-2 fs-5 d-flex flex-column gap-2">
+                    <div class="answer bg-light p-3 rounded-top">
+                        <input type="radio" name="question" id="answer_1" data-answer="Answer 1" checked>
+                        <label for="answer_1" class="ms-2"> Answer 1</label>
+                    </div>
+                    <div class="answer bg-light p-3">
+                        <input type="radio" name="question" id="answer_1" data-answer="Answer 1">
+                        <label for="answer_1" class="ms-2"> Answer 1 </label>
+                    </div>
+                    <div class="answer bg-light p-3">
+                        <input type="radio" name="question" id="answer_1" data-answer="Answer 1">
+                        <label for="answer_1" class="ms-2"> Answer 1</label>
+                    </div>
+                    <div class="answer bg-light p-3 rounded-bottom">
+                        <input type="radio" name="question" id="answer_1" data-answer="Answer 1">
+                        <label for="answer_1" class="ms-2"> Answer 1</label>
+                    </div>
+                </div>
+                <button type="submit" class="d-block btn btn-primary my-1 fw-bold w-50 mx-auto">Next</button>
+                <div class="lower d-flex align-items-center justify-content-between">
+                    <div class="bullets d-flex my-2 ms-2 ms-md-5">
+                        <span class="on"></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="countdown my-2 me-2 me-md-5">
+                        <span>02:45</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- JavaScript Link -->
     <script src="main.js"></script>
     <!-- Bootstrap JS Link -->
