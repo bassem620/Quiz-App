@@ -1,3 +1,7 @@
+* {
+    user-select: none;
+}
+
 /* Start */
 .start .box {
     max-width: 95vh;
