@@ -34,3 +34,37 @@ nav,
     font-weight: bold;
     font-size: 18px;
 }
+
+/* Results Section */
+.results .container {
+    width: 100%;
+}
+
+@media (min-width:767px) {
+    .results .container {
+        width: 50%;
+    }
+}
+
+.results img {
+    max-width: 100px;
+}
+
+.results .bad {
+    color: red;
+}
+
+.results .excellent {
+    color: blue;
+}
+
+.results .excellent {
+    color: green;
+}
+
+.results .results .box span {
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+}
